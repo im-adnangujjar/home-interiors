@@ -1,19 +1,18 @@
 import React from "react";
-import  Logo from "../../assets/svg-images/logo.svg";
+import Logo from "../../assets/svg-images/logo.svg";
 import { ReactComponent as Fbicon } from "../../assets/svg-images/fb-icon.svg";
 import { ReactComponent as Insta } from "../../assets/svg-images/insta-icon.svg";
 import { ReactComponent as Twicon } from "../../assets/svg-images/tw-icon.svg";
 import { ReactComponent as Inicon } from "../../assets/svg-images/in-icon.svg";
 import { ReactComponent as Yticon } from "../../assets/svg-images/yt-icon.svg";
 
-
 function Footer() {
   return (
     <div className="bg-[#F8F8F8]">
       <div className="pb-14 max-w-7xl hidden flex-col justify-center w-full mx-auto pr-6 md:flex">
-        <div className="flex gap-8 flex-wrap justify-between  w-full pt-14">
+        <div className="flex gap-6 flex-wrap justify-between  w-full pt-14">
           <div className="w-full max-w-[419px]">
-            <img src={Logo} alt='logo'/>
+            <img src={Logo} alt="logo" />
             <p className="font-normal text-[18px] ml-6 my-8 text-[#3D3D3D] ">
               We introduce our selves as LAND Interior and Architectural Design
               Consultancy – one of the best interior designers in Chennai.
@@ -87,17 +86,19 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="md:hidden flex flex-col justify-center items-center p-6"  >
+      <div className="md:hidden flex flex-col justify-center items-center p-6">
         <div>
           <div className="w-28 flex ml-16">
-          <img src={Logo} alt='logo'/>
+            <img src={Logo} alt="logo" />
           </div>
 
           <ul className="mt-4 text-[#4F4F4F]">
             <li className="text-[18px] font-medium  leading-7 text-center ">
               landinteriors@gmail.com
             </li>
-            <li className="text-[18px] font-medium text-center ">+91 98987 65656</li>
+            <li className="text-[18px] font-medium text-center ">
+              +91 98987 65656
+            </li>
           </ul>
         </div>
         <div className=" flex gap-2 items-center mt-3">
